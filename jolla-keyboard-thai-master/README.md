@@ -1,4 +1,4 @@
-Ukrainian keyboard layout for Sailfish OS
+Thai keyboard layout for Sailfish OS
 =========================================
 
 Copyright (C) 2020 *[Clayton Rego](https://github.com/nerd7473)*.
