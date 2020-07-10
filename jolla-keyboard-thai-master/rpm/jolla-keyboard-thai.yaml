@@ -1,0 +1,42 @@
+Name: jolla-keyboard-thai
+Summary: A Thai keyboard layout for Sailfish OS
+Version: 1.0.0
+Release: 1
+# The contents of the Group field should be one of the groups listed here:
+# http://gitorious.org/meego-developer-tools/spectacle/blobs/master/data/GROUPS
+Group: Qt/Qt
+URL: https://github.com/nerd7473/jolla-keyboard-thai
+License: BSD
+# This must be generated before uploading a package to a remote build service.
+# Usually this line does not need to be modified.
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  A Thai layout for the Sailfish OS virtual keyboard
+Configure: none
+# The qtc5 builder inserts macros to allow QtCreator to have fine
+# control over qmake/make execution
+Builder: qtc5
+BuildArch: noarch
+
+# This section specifies build dependencies that are resolved using pkgconfig.
+# This is the preferred way of specifying build dependencies for your package.
+#PkgConfigBR:
+#  - package-name
+
+# Build dependencies without a pkgconfig setup can be listed here
+# PkgBR:
+#   - package-needed-to-build
+
+# Runtime dependencies which are not automatically detected
+Requires:
+  - jolla-keyboard
+
+# All installed files
+Files:
+  - '%attr(644,-,-) %{_datadir}/maliit/plugins/com/jolla/layouts/thai.conf'
+  - '%attr(644,-,-) %{_datadir}/maliit/plugins/com/jolla/layouts/thai.qml'
+
+# For more information about yaml and what's supported in Sailfish OS
+# build system, please see https://wiki.merproject.org/wiki/Spectacle
+

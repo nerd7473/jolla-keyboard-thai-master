@@ -1,0 +1,18 @@
+# Add new changelog entries following the format below.
+# Add newest entries to the top of the list.
+# Separate entries from eachother with a blank line.
+
+# * date Author's Name <author's email> version-release
+# - Summary of changes
+
+* Fri Jul 10th 2020 Clayton Rego <nerd7473@yahoo.com> 0.2.0-1
+- Compatibility with the latest version of Sailfish OS
+- Slight changes to the layout.
+- Fixes previous issue of hidden (or invisible) characters.
+- Addition of Thai written in Thai on the keyboard selection page.
+
+* Unknown TinLethax <thipok17@gmail.com>
+- Changed layout.
+
+* 2013 Pekka Vuorela <pekka.vuorela@jollamobile.com>
+- Initial release.
