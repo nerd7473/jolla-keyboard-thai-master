@@ -25,7 +25,7 @@ KeyboardLayout {
         CharacterKey { caption: "ำ"; captionShifted: "ฑ" }
         CharacterKey { caption: "พ"; captionShifted: "ธ" }
         CharacterKey { caption: "ะ"; captionShifted: " ํ" }
-        CharacterKey { caption: " ั"; captionShifted:" ๊" }
+        CharacterKey { caption: " ั"; captionShifted: " ๊" }
         CharacterKey { caption: " ี"; captionShifted: "ณ" }
         CharacterKey { caption: "ร"; captionShifted: "ฯ" }
         CharacterKey { caption: "น"; captionShifted: "ญ" }
